@@ -5,12 +5,12 @@ body {
     font-family: "Open Sans", sans-serif;
     color: #444444;
   }
-
+ 
 html {
     margin: 0rem;
     padding: 0rem;
 }
-
+ 
   a {
     color: #FF00FF;
   }
@@ -19,7 +19,7 @@ html {
     color: #FF00FF;
     text-decoration: none;
   }
-
+ 
   h1, h2, h3, h4, h5, h6 {
     font-family: "Poppins", sans-serif;
   }
@@ -28,7 +28,7 @@ html {
 /*--------------------------------------------------------------
 # Navigation
 --------------------------------------------------------------*/
-
+ 
 /* Desktop Navigation */
 .nav-menu ul {
     margin: 0;
@@ -39,7 +39,7 @@ html {
   .nav-menu > ul {
     display: flex;
   }
-
+ 
   .nav-menu .nav-inner {
     display: flex;
     justify-content: center;
@@ -76,8 +76,8 @@ html {
     background: url("/assets/images/magentabg.png");
     background-size: cover;
   }
-
-
+ 
+ 
 #intro h1 {
     margin: 0;
     font-size: 52px;
