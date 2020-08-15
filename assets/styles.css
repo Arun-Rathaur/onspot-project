@@ -1,0 +1,11 @@
+html{
+    margin: 0rem;
+    padding: 0rem;
+}
+
+#introduction{
+    background: black;
+    height: 100vh;
+    max-width: 100%;
+}
+
