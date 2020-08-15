@@ -3,8 +3,9 @@ html{
     padding: 0rem;
 }
 
+
 #introduction{
-    background: black;
+    background: linear-gradient(to bottom right, rgb(225,24,142) , rgb(158,48,145));
     height: 100vh;
     max-width: 100%;
     text-align: center;
