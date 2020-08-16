@@ -10,13 +10,38 @@ html {
     margin: 0rem;
     padding: 0rem;
 }
-
-
-#introduction{
-    background: linear-gradient(to bottom right, rgb(225,24,142) , rgb(158,48,145));
-    height: 100vh;
-    max-width: 100%;
-    text-align: center;
+ 
+  a {
+    color: #FF00FF;
+  }
+  
+  a:hover {
+    color: #FF00FF;
+    text-decoration: none;
+  }
+ 
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Poppins", sans-serif;
+  }
+  
+  
+/*--------------------------------------------------------------
+# Navigation
+--------------------------------------------------------------*/
+ 
+/* Desktop Navigation */
+.nav-menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .nav-menu > ul {
+    display: flex;
+  }
+ 
+  .nav-menu .nav-inner {
+    display: flex;
     justify-content: center;
     align-items: center;
   }
@@ -66,8 +91,8 @@ html {
     margin: 10px 0 0 0;
     font-size: 20px;
 }
-
-
+ 
+ 
 /*--------------------------------------------------------------
 # About Section
 --------------------------------------------------------------*/
