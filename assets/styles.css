@@ -7,7 +7,6 @@ body {
 }
 
 html {
-<<<<<<< HEAD
     margin: 0rem;
     padding: 0rem;
 }
@@ -17,7 +16,7 @@ html {
   }
   
   a:hover {
-    color: #purple;
+    color: purple;
     text-decoration: none;
   }
  
@@ -26,28 +25,6 @@ html {
   }
   
   
-=======
-  margin: 0rem;
-  padding: 0rem;
-}
-
-a {
-  color: white;
-}
-
-a:hover {
-  color: purple;
-  text-decoration: none;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Poppins", sans-serif;
-}
-
-
-
-
->>>>>>> 65487dafb059de27b547ba52c082bce22236ae0e
 /*--------------------------------------------------------------
 # Navigation
 --------------------------------------------------------------*/
