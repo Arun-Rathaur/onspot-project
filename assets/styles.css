@@ -73,10 +73,10 @@ html {
 #intro {
     width: 100%;
     height: 100vh;
-    background: url("/assets/images/magentabg.png");
+    background: rgb(172,123,164);
+    background: linear-gradient(90deg, rgba(172,123,164,1) 0%, rgba(167,33,199,1) 50%, rgba(255,0,249,1) 100%);
     background-size: cover;
   }
- 
  
 #intro h1 {
     margin: 0;
@@ -91,3 +91,4 @@ html {
     margin: 10px 0 0 0;
     font-size: 20px;
 }
+
