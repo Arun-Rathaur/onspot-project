@@ -265,17 +265,16 @@ body
   font-weight: 600;
   font-size: 28px;
   color: #DA70D6;
-  padding: 0 400px 0 0;
+  padding: 0 300px 0 60px;
   text-align: left;
 }
 
 .about .content h6 {
   font-weight: 500;
   color: #606060;
-  padding: 10px 400px 0 0;
+  padding: 10px 300px 0 60px;
   text-align: left;
   justify-content: left;
-
 }
 
 .about .content ul {
@@ -288,5 +287,5 @@ body
 }
 
 .about .content ul > li {
-  padding: 20px 0 0 0;
+  padding: 20px 300px 0 60px;
 }
