@@ -293,3 +293,58 @@ body
 .about .content ul > li {
   padding: 20px 300px 0 60px;
 }
+
+/*-------------------------------------------
+Services Section
+-------------------------------------------*/
+.services{
+  position: relative;
+  background-color: azure;
+  height: 90vh;
+}
+
+.slides{
+  display: none;
+  
+}
+
+.slides img {
+display: block;
+position: absolute;
+width: 280px;
+height: 260px;
+top: 50%;
+left: 50%;
+margin-top: -50px;
+margin-left: -100px;
+}
+
+.slides h4{
+display: block;
+text-align: center;
+position: static;
+}
+
+
+.back,
+.next{
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: snow;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+
+}
+
+.next{
+  right: 0;
+  border-radius: 0 3px 3px 0;
+}
+
+
