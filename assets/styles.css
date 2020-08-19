@@ -91,7 +91,19 @@ h1, h2, h3, h4, h5, h6 {
   position: absolute;
 }
 
+.image_text{
+  display: inline-flex;
+  align-items: center;
+justify-content: center;
+  vertical-align: middle;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
 .text{
+  float: left;
+  vertical-align: middle;
+  align-items: center;
 
 }
 
@@ -134,9 +146,14 @@ h1, h2, h3, h4, h5, h6 {
 
 .emprologo{
   float: right;
-  width: 500px;
-  height: 500px;
-
+  width: 400px;
+  height: 400px;
+  top: 50%;
+  bottom: 50%;
+  vertical-align: middle;
+  display: flex;
+  align-items: flex-end;
+  
 }
 
 /*--------------------------------------------------------------
