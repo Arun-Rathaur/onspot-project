@@ -86,6 +86,12 @@ h1, h2, h3, h4, h5, h6 {
   background-size: cover;
 }
 
+#intro .container, #intro .container-fluid {
+  padding-top: 900px;
+  position: absolute;
+}
+
+
 #intro h0 {
   margin: 0;
   font-size: 52px;
@@ -115,7 +121,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #intro .emprovisionlogo {
-  padding: 0px 0px 0px 1500px;
+  display: grid;
+  height: 100%;
+}
+
+#intro .emprologo {
+  max-width: 100%;
+  width: 500px;
+  height: auto;
+  position: relative;
+  left: 1000px;
+  margin-bottom: 500px;
 }
 
 /*--------------------------------------------------------------
