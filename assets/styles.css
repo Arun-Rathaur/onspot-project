@@ -87,8 +87,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #intro .container, #intro .container-fluid {
-  padding-top: 900px;
+  padding-top: 400px;
   position: absolute;
+}
+
+.text{
+
 }
 
 
@@ -120,18 +124,19 @@ h1, h2, h3, h4, h5, h6 {
   margin: 15px 0 0 0;
 }
 
+
+
+
 #intro .emprovisionlogo {
-  display: grid;
-  height: 100%;
+  display: block;
+  
 }
 
-#intro .emprologo {
-  max-width: 100%;
+.emprologo{
+  float: right;
   width: 500px;
-  height: auto;
-  position: relative;
-  left: 1000px;
-  margin-bottom: 500px;
+  height: 500px;
+
 }
 
 /*--------------------------------------------------------------
