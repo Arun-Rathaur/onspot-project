@@ -104,9 +104,7 @@ justify-content: center;
   float: left;
   vertical-align: middle;
   align-items: center;
-
 }
-
 
 #intro h0 {
   margin: 0;
@@ -136,12 +134,8 @@ justify-content: center;
   margin: 15px 0 0 0;
 }
 
-
-
-
 #intro .emprovisionlogo {
   display: block;
-  
 }
 
 .emprologo{
@@ -153,7 +147,6 @@ justify-content: center;
   vertical-align: middle;
   display: flex;
   align-items: flex-end;
-  
 }
 
 /*--------------------------------------------------------------
@@ -304,15 +297,16 @@ body
 }
 
 .about .content h4 {
-  font-weight: 600;
-  font-size: 28px;
+  font-weight: 700;
+  font-size: 35px;
   color: #DA70D6;
   padding: 0 300px 0 60px;
   text-align: left;
 }
 
 .about .content h6 {
-  font-weight: 500;
+  font-weight: 600;
+  font-size: 25px;
   color: #606060;
   padding: 10px 300px 0 60px;
   text-align: left;
@@ -329,7 +323,17 @@ body
 }
 
 .about .content ul > li {
-  padding: 20px 300px 0 60px;
+  padding: 35px 300px 0 60px;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.about .smimage {
+  position: relative;
+  padding: 0 0 0 600px;
+  top: -500px;
+  
+
 }
 
 /*-------------------------------------------
