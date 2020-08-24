@@ -330,7 +330,7 @@ body
 
 .about .smimage {
   position: relative;
-  padding: 0 0 0 800px;
+  left: 800px;
   top: -600px;
   
   
