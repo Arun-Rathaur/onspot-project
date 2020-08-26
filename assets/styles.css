@@ -332,7 +332,7 @@ body
   position: relative;
   left: 800px;
   top: -600px;
-  width: 100%;
+  max-width: 100%;
   height: auto;
 
 
